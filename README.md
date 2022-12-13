@@ -1,5 +1,7 @@
 # ReadMe Generator
 
+![Screen Shot 2022-12-12 at 11 40 12 PM](https://user-images.githubusercontent.com/114897110/207438844-1a1a6ec6-1406-4d5b-9255-f9b735c27cf4.png)
+
 
 ## Project Description
 
@@ -43,9 +45,6 @@ THEN I am taken to the corresponding section of the README
 [Demo](https://youtu.be/-9okAmJ45d8)
 
 ## Languages used
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Contact Me
