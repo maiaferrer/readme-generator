@@ -4,7 +4,7 @@ const readmeGenerator = (answers) =>
 `
  [![License](https://img.shields.io/badge/license-${answers.license}-green.svg)](https://opensource.org/licenses/${answers.license})
 
-## ${answers.projectName}
+# ${answers.projectName}
 
 ## Table of Contents:
    - [Project Description](#project-description)
@@ -34,8 +34,6 @@ ${answers.testing}
 For further quesitons contact me at: ${answers.email} or
 [Github](https://github.com/${answers.github})
 [Linkedin](${answers.linkedin})
-
-
 `
 inquirer
   .prompt([
@@ -73,7 +71,7 @@ inquirer
         type: 'list',
         message: 'Please select license for this project',
         name: 'license',
-        choices: ['Apache', 'MIT', 'Adobe']
+        choices: ['Apache', 'MIT', 'Boost','BSD']
      },
      {
         type: 'input',
