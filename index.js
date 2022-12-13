@@ -6,6 +6,35 @@ const readmeGenerator = (answers) =>
 
 ## ${answers.projectName}
 
+## Table of Contents:
+   - [Project Description](#project-description)
+   - [Installation Instructions](#installation-instructions)
+   - [Usage Information](#usage-information)
+   - [Contribution Guidelines](#contribution-guidelines)
+   - [Test Instructions](#test-instructions)
+   - [Contact Me](#contact-me)
+
+
+## Project Description:
+${answers.projectDescription}
+
+## Installation Instructions:
+${answers.install}
+
+## Usage Information:
+${answers.usageInfo}
+
+## Contribution Guidelines:
+${answers.contribute}
+
+## Test Instructions: 
+${answers.testing}
+
+## Contact Me
+For further quesitons contact me at: ${answers.email} or
+[Github](https://github.com/${answers.github})
+[Linkedin](${answers.linkedin})
+
 
 `
 inquirer
@@ -45,6 +74,21 @@ inquirer
         message: 'Please select license for this project',
         name: 'license',
         choices: ['Apache', 'MIT', 'Adobe']
+     },
+     {
+        type: 'input',
+        message: 'Please insert your e-mail address?',
+        name: 'email'
+     },
+     {
+        type: 'input',
+        message: 'What is your LinkedIn profile Link?',
+        name: 'linkedin'
+     },
+     {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github'
      }
   ])
   .then((answers) => {
